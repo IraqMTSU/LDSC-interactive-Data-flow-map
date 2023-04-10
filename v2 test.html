@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Data Flow Map</title>
+    <link rel="stylesheet" href="styles.css">
+   
+	<script src="https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js"></script>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+  .mermaid text {
+    font-size: 24px !important;
+  }
+  .mermaid .node {
+    min-width: 160px !important;
+    min-height: 40px !important;
+  }
+  .mermaid .node rect {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mermaid .node text {
+    transform: translateY(4px) !important;
+  }
+</style>
+
+</head>
+<body>
+<img src="images/crs.png" alt="organization logo" class="logo" />
+    <h1>Interactive Data Flow Map - Developed by IRAQ MTSU</h1>
+    <h2>LDSC Livelihood FY23</h2>
+ <p class="description">This interactive data flow map helps visualize the flow of data for different indicators within the LDSC Livelihood project. Click on the buttons on the left to view the data flow for each indicator.</p>
+<div class="content">
+ <div id="diagram"></div>
+<div class="buttons-container">
+
+  <button id="button1">Beneficiaries' data flow</button>
+  <button id="button2">Indicator 1,2,4</button>
+  <button id="button3">Indicator 3</button>
+
+  <button id="button5">Indicator 5</button>
+  <button id="button6">Indicator 6</button>
+  <button id="button7">Indicator 7</button>
+
+  <button id="hideAll">Hide All</button>
+</div>
+</div>
+
+    <script src="script.js"></script>
+	
+</body>
+</html>

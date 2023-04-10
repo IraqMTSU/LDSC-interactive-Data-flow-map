@@ -1,0 +1,11 @@
+.mermaid text {
+  font-size: 16px !important;
+}
+.mermaid .node {
+  min-width: 160px !important;
+  min-height: 40px !important;
+}
+.mermaid .node rect {
+  width: 100% !important;
+  height: 100% !important;
+}
