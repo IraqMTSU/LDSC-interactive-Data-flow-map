@@ -46,7 +46,7 @@ graph TB
 A[" Post test - attendance sheet"] --> D["Team archiving storage"]
 D --> B["IPTT"]
 B --> C["Data Reporting"]
-Button1Clicked["Ind. 6: % of SED training attendees that complete SED training"] -.-> A
+Button1Clicked["Indicator 6: % of SED training attendees that complete SED training"] -.-> A
 `;
 
 const diagram7 =  `
@@ -56,7 +56,7 @@ D --> B["Master datbase - Excel"]
 B --> C["IPTT"]
 C --> F["Data Reporting"]
 
-Button1Clicked["IInd7. # of participants that receive coaching during business start-up” asession"] -.-> A
+Button1Clicked["Indicator 7. # of participants that receive coaching during business start-up” asession"] -.-> A
 `;
 
 // Diagram definitions without HTML tags for icons
@@ -94,7 +94,7 @@ A["Endline Survey tool"] --> D["CommCare LDSC space"]
 D --> B["Master database - Excel"]
 B --> C["IPTT"]
 C --> F["Data reporting"]
-Button1Clicked["Ind. 1 %program participants self-report increased income,<br>Ind. 2 # and % of beneficiaries report they are able to meet their basic needs,<br>Ind. 4 # and % of participants using skills obtained in vocational training"] -.-> A
+Button1Clicked["Ind. 1 %program participants self-report increased income<br>Ind. 2 # and % of beneficiaries report they are able to meet their basic needs<br>Ind. 4 # and % of participants using skills obtained in vocational training"] -.-> A
 `;
 
 const diagramAll = `
